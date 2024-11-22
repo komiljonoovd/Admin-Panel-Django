@@ -83,7 +83,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
         'OPTIONS':
-             {'options': '-c search_path=Report'},
+             {'options': '-c search_path=Report,public'}, 
     }
 }
 
