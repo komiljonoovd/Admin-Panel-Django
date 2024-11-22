@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'reportdb',
+        'NAME': 'db_name',
         'USER': 'postgres',
-        'PASSWORD': '1',
+        'PASSWORD': 'db_password',
         'HOST': 'localhost',
         'PORT': '5432',
         'OPTIONS':
