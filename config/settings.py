@@ -82,8 +82,8 @@ DATABASES = {
         'PASSWORD': '1',
         'HOST': 'localhost',
         'PORT': '5432',
-        # 'OPTIONS':
-        #     {'options': '-c search_path=Report'},
+        'OPTIONS':
+             {'options': '-c search_path=Report'},
     }
 }
 
