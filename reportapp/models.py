@@ -16,7 +16,7 @@ class ReportCategory(models.Model):
         return self.name
 
     class Meta:
-        managed = False
+        managed = False  # to connect to an existing database, you need to do it this way
         db_table = 'Report"."ReportCategory'  # Schema.Table
         verbose_name = 'Report Category'
         verbose_name_plural = 'Report Category'
